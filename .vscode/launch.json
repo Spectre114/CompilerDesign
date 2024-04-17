@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": false,
-      "cwd": "/home/kartick/Desktop/compiler_design_lab",
-      "program": "/home/kartick/Desktop/compiler_design_lab/build/Debug/outDebug",
+      "externalConsole": true,
+      "cwd": "c:/Users/harsh/OneDrive - Graphic Era University/Desktop/Programing/compiler_design_lab",
+      "program": "c:/Users/harsh/OneDrive - Graphic Era University/Desktop/Programing/compiler_design_lab/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
