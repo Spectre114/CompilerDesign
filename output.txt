@@ -1,3 +1,4 @@
-Integer: 123
-
-Float: 1.23
+No. of chars: 33
+No. of spaces: 32
+No. of new lines: 2
+No. of words: 9
