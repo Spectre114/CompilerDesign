@@ -1,0 +1,67 @@
+int is a Keyword
+p is an Identifier
+= is an Operator
+1 is an Integer
+, is A Seperator
+d is an Identifier
+= is an Operator
+0 is an Integer
+, is A Seperator
+r is an Identifier
+= is an Operator
+4 is an Integer
+; is A Seperator
+
+float is a Keyword
+m is an Identifier
+= is an Operator
+0.0 is a Float
+, is A Seperator
+n is an Identifier
+= is an Operator
+200.0 is a Float
+; is A Seperator
+
+while is a Keyword
+p is an Identifier
+< is an Operator
+= is an Operator
+3 is an Integer
+
+if is a Keyword
+d is an Identifier
+= is an Operator
+= is an Operator
+0 is an Integer
+
+m is an Identifier
+= is an Operator
+m is an Identifier
++ is an Operator
+n is an Identifier
+* is an Operator
+r is an Identifier
++ is an Operator
+4.5 is a Float
+; is A Seperator
+d is an Identifier
+++ is an Operator
+; is A Seperator
+
+else is a Keyword
+
+r is an Identifier
+++ is an Operator
+; is A Seperator
+m is an Identifier
+= is an Operator
+m is an Identifier
++ is an Operator
+r is an Identifier
++ is an Operator
+1000.0 is a Float
+; is A Seperator
+
+p is an Identifier
+++ is an Operator
+; is A Seperator
