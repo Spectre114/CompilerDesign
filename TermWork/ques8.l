@@ -2,7 +2,7 @@
     #include <stdio.h>
     #include <stdlib.h>
     #include <string.h>
-    int newLine = 0;
+    int newLine = 1;
     int space = 0;
     int c = 0;
     int words = 0;

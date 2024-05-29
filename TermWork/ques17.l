@@ -2,7 +2,7 @@
     #include<stdio.h>
 %}
 %%
-[^@]+"@"[^.]+"."[^\n]+ {
+[^@]+"@"["gmail"|"hotmail"]+"."["com"|"org"]+ {
     printf("%s is a valid email\n",yytext);
 }
 [^\n]+ {

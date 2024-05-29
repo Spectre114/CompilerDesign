@@ -11,7 +11,7 @@
 [\t] {tabs++;}
 [^\n\t ]+ {words++;c += yyleng;}
 %%
-yywrap() {return 1;}
+int yywrap() {return 1;}
 int main(){
     printf("Enter the input: ");
     yylex();

@@ -11,7 +11,7 @@ int yywrap(){
 }
 int main(){
     extern FILE *yyin,*yyout;
-    yyin = fopen("htmlFile.html","r");
+    yyin = fopen("htmlInput.html","r");
     yyout = fopen("htmlTags.txt","w");
     yylex();
     fclose(yyin);

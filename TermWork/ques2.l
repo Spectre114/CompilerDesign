@@ -3,8 +3,8 @@
     #include<string.h>
 %}
 %%
-"/*"[^*]*"*/";
-"//"[^\n]*   ;
+"/*"[^*]*"*/" ;
+"//"[^\n]*    ;
 . {
     fprintf(yyout,"%s",yytext);
 }
@@ -12,9 +12,7 @@
 int yywrap() { return 1; }
 int main() {
     extern FILE *yyin, *yyout;
-    char str[100];
-    gets(str);
-    yyin = fopen(str, "r");
+    yyin = fopen("input.c", "r");
     yyout = fopen("out.c", "w");
     yylex();
     fclose(yyin);

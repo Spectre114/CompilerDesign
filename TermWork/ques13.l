@@ -16,5 +16,5 @@ int yywrap(){
 int main(){
     printf("Enter the input: \n");
     yylex();
-    printf("%d\n",words);
+    printf("No. of words having lenght 5-> %d\n",words);
 }

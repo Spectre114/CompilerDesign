@@ -30,8 +30,7 @@ p is an Identifier
 
 if is a Keyword
 d is an Identifier
-= is an Operator
-= is an Operator
+== is an Operator
 0 is an Integer
 
 m is an Identifier
