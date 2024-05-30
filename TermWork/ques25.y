@@ -15,12 +15,10 @@ int yylex(void);
 
 %%
 
-input:
-    /* empty */
-    | input line
+St:  |St S
     ;
 
-line:
+S:
     '\n'
     | expr '\n'  { printf("Result: %d\n", $1); }
     ;
@@ -41,6 +39,4 @@ int main(void) {
     return yyparse();
 }
 
-void yyerror(const char *s) {
-    fprintf(stderr, "Error: %s\n", s);
-}
+

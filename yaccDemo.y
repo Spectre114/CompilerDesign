@@ -10,11 +10,11 @@ St: S NL {
 }
 S: A S B | A B;
 %%
+yyerror(){
+    printf("Invalid\n");
+    exit(0);
+}
 int main(){
     yyparse();
     return 0;
-}
-int yyerror(){
-    printf("Invalid\n");
-    exit(0);
 }
